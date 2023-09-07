@@ -1,0 +1,14 @@
+{
+  "name": "Calculated",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss:watch": "sass --watch styles/scss/main.scss styles/css/main.css --no-source-map"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.66.1"
+  }
+}

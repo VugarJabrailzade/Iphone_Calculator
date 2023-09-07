@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+</head>
+<body> 
+    <!-- Header section clock, set, wifi line startt -->
+        <header id="head" >
+            <div class="headRigt">
+                <label id="hours"></label>
+            </div>
+            <div class="headLeft">
+                <label id="cell"><i class="fa-solid fa-signal"></i></label>
+                <label id="wifi"><i class="fa-solid fa-wifi"></i></label>
+                <label id="battery"><i class="fa-solid fa-battery-three-quarters"></i></label>
+            </div>
+        </header>
+    <!-- Header section clock, set, wifi line end -->
+    <div class="container pt-16">
+        <div class="displayStyle">
+            <!-- <label for="textIn"></label> -->
+            <input type="number" id="display"  class="textIn">
+        </div>
+         <div class="myInput">              
+            <button id="clear" class="numlightGrey clear">AC</button>
+            <button type="button" value="+/-" id="posNegNum" class="numlightGrey negative operator">+/-</button>
+            <button type="button" value="%" class="numlightGrey operator">%</button>
+            <button type="button" value="/" class="orangeTool operator">/</button>
+            <button type="button" value="7" class="num">7</button>
+            <button type="button" value="8" class="num">8</button>
+            <button type="button" value="9" class="num">9</button>
+            <button type="button" value="*" class= "orangeTool operator">x</button>
+            <button type="button" value="4" class= "num">4</button>
+            <button  type="button" value="5" class="num">5</button>
+            <button type="button" value="6" class="num">6</button>
+            <button type="button" value="-" class="orangeTool operator">-</button>
+            <button type="button" value="1" class="num">1</button>
+            <button type="button" value="2" class="num">2</button>
+            <button type="button" value="3" class="num">3</button>
+            <button type="button" value="+"  class="orangeTool operator">+</button>
+            <button type="button" value="0" class="zero">0</button>
+            <button type="button" value="," class="num decimal">,</button>
+            <button type="button" id="equal" value="=" class="orangeTool operator">=</button>
+
+        </div> 
+        
+
+    </div>
+   
+
+</body>
+<script src="index.js"></script>
+</html>

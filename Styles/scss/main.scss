@@ -1,0 +1,94 @@
+body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+@media screen  and (max-width: 385px){
+    body {
+        background-color: rgba(0, 0, 0, 0.881);
+    }
+    #head{
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        #hours{
+            font-size: 16px;
+            color: white;
+            font-weight: bold;
+        }
+
+    }
+    .headLeft{
+        margin-right: 10px;
+        label{
+            color: white;
+            font-weight: 100;
+        }
+    }
+   .textIn{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-right: 25px;
+    font-size: 50px;
+    height: 120px;
+    background-color: transparent;
+    color: white;
+    text-align: right;
+    border: none;
+    outline: none;
+    }
+    
+    .myInput {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 20px;
+        padding-top: 20px;
+        
+        button {
+        color: white;
+        width: 75px;
+        height: 70px;
+        background-color: rgba(128, 128, 128, 0.414);
+        font-size: 25px;
+        text-decoration: none;
+        border-color: none;
+        box-shadow: transparent;
+        border-radius: 50%;
+
+
+    }
+    .zero{
+        width: 160px;
+        height: 70px;
+        font-size: 25px;
+        color: white;
+        background-color: rgba(128, 128, 128, 0.414);
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding-right: 80px;
+    }
+    }  
+
+    .myInput{
+
+        .orangeTool{
+            background-color: orange;
+        }
+        .numlightGrey{
+            background-color: rgb(147, 143, 143);
+        }
+        .num{
+            background-color: rgba(128, 128, 128, 0.414);
+        }
+    }
+
+
+
+
+
+}
